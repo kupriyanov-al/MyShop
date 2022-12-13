@@ -1,0 +1,62 @@
+{
+    "editor.suggest.preview": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggest.insertMode": "insert",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.suggest.showClasses": true,
+    "editor.suggest.showConstructors": true,
+    "editor.suggest.showColors": true,
+    "editor.suggest.showConstants": true,
+    "editor.suggest.showCustomcolors": true,
+    "editor.suggest.showDeprecated": true,
+    "editor.suggest.showEnumMembers": true,
+    "editor.suggest.showEnums": true,
+    "editor.suggest.showEvents": true,
+    "editor.suggest.showFields": true,
+    "editor.suggest.showFiles": true,
+    "editor.suggest.showFolders": true,
+    "editor.suggest.showFunctions": true,
+    "editor.suggest.showIcons": true,
+    "editor.suggest.showInlineDetails": true,
+    "editor.suggest.showInterfaces": true,
+    "editor.suggest.showIssues": true,
+    "editor.suggest.showKeywords": true,
+    "editor.suggest.showMethods": true,
+    "editor.suggest.showModules": true,
+    "editor.suggest.showOperators": true,
+    "editor.suggest.showProperties": true,
+    "editor.suggest.showReferences": true,
+    "editor.suggest.showSnippets": true,
+    "editor.suggest.showStructs": true,
+    "editor.suggest.showTypeParameters": true,
+    "editor.suggest.showUnits": true,
+    "editor.suggest.showUsers": true,
+    "editor.suggest.showValues": true,
+    "editor.suggest.showVariables": false,
+    "editor.suggest.showWords": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.suggest.localityBonus": true,
+
+
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=120"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django",
+        "--django-settings-module=core.settings",
+        "--max-line-length=120"
+    ],
+    
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.mypyEnabled": true
+}
